@@ -36,15 +36,6 @@ public class MainRunner {
 		
 		ForecastReturn resp = 	soap.getCityForecastByZIP("02108");
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 	
 
