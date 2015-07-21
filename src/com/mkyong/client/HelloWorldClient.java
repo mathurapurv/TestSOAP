@@ -10,7 +10,7 @@ public class HelloWorldClient {
 
 	public static void main(String[] args) throws Exception {
 
-		URL url = new URL("http://localhost:9999/ws/hello/mkyong?wsdl");
+		URL url = new URL("http://127.0.0.1:9999/ws/hello/mkyong?wsdl");
 
 		// 1st argument service URI, refer to wsdl document above
 		// 2nd argument is service name, refer to wsdl document above
@@ -20,7 +20,10 @@ public class HelloWorldClient {
 
 		HelloWorld hello = service.getPort(HelloWorld.class);
 
-		System.out.println(hello.getHelloWorldAsString("mkyong"));
+		System.out.println(hello.getHelloWorldAsString("klaskdjlk sdsd"));
+		System.out.println(hello.addNumbers(12l, 13l));
+		
+		
 
 	}
 

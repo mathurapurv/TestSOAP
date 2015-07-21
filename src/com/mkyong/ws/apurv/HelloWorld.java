@@ -12,5 +12,7 @@ import javax.jws.soap.SOAPBinding.Style;
 public interface HelloWorld{
 
 	@WebMethod String getHelloWorldAsString(String name);
+	
+	@WebMethod Long addNumbers(Long first , Long second);
 
 }
