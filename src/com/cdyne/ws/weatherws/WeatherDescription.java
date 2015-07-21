@@ -107,4 +107,13 @@ public class WeatherDescription {
         this.pictureURL = value;
     }
 
+	@Override
+	public String toString() {
+		return "WeatherDescription [weatherID=" + weatherID + ", description=" + description + ", pictureURL="
+				+ pictureURL + "]";
+	}
+    
+    
+    
+
 }

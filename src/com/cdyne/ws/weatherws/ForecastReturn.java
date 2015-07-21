@@ -190,5 +190,7 @@ public class ForecastReturn {
     public void setForecastResult(ArrayOfForecast value) {
         this.forecastResult = value;
     }
+    
+    
 
 }
